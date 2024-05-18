@@ -1,0 +1,25 @@
+GET http://localhost:3001/api/blogs/
+###
+POST http://localhost:3001/api/blogs/ HTTP/1.1
+content-type: application/json
+
+{
+
+title
+"Hannna"
+author
+"1337"
+url
+"harry potter"
+likes
+544
+}
+
+###
+POST http://localhost:3005/api/users/ HTTP/1.1
+content-type: application/json
+
+{   "username": "root",
+    "name": "Superuser",
+    "password": "salainen"
+}
